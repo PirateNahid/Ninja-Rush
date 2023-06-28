@@ -4,7 +4,7 @@
 [ext_resource path="res://assets/buttons.png" type="Texture" id=2]
 [ext_resource path="res://fonts/LilitaOne-Regular.ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://scripts/mainmenu.gd" type="Script" id=4]
-[ext_resource path="res://assets/background.jpg" type="Texture" id=5]
+[ext_resource path="res://assets/Background_0.png" type="Texture" id=5]
 
 [sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 2 )
@@ -35,8 +35,8 @@ __meta__ = {
 [node name="TextureRect" type="TextureRect" parent="."]
 margin_left = 1.0
 margin_top = 1.0
-margin_right = 1026.0
-margin_bottom = 605.0
+margin_right = 1283.0
+margin_bottom = 722.0
 texture = ExtResource( 5 )
 expand = true
 __meta__ = {
@@ -44,16 +44,16 @@ __meta__ = {
 }
 
 [node name="Control" type="Control" parent="."]
-margin_left = 4.5874
+margin_left = 5.0
 margin_top = 3.0
-margin_right = 1035.59
-margin_bottom = 598.0
+margin_right = 1283.0
+margin_bottom = 724.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Sprite" type="Sprite" parent="Control"]
-position = Vector2( 517.872, 297.792 )
+position = Vector2( 648.685, 347.739 )
 scale = Vector2( 0.729977, 0.740614 )
 texture = ExtResource( 1 )
 

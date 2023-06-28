@@ -63,20 +63,20 @@ __meta__ = {
 }
 
 [node name="ColorRect" type="ColorRect" parent="Control"]
-margin_left = -27.2865
-margin_top = -14.5243
-margin_right = 1048.71
-margin_bottom = 624.476
+margin_left = -24.8811
+margin_top = -17.1189
+margin_right = 1324.12
+margin_bottom = 752.881
 color = Color( 0.0627451, 0.0941176, 0.12549, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Control/ColorRect"]
-margin_left = 189.0
-margin_top = 186.0
-margin_right = 772.0
-margin_bottom = 254.0
+margin_left = 258.925
+margin_top = 258.044
+margin_right = 841.925
+margin_bottom = 326.044
 custom_fonts/normal_font = SubResource( 1 )
 text = "A Game From"
 __meta__ = {
@@ -84,10 +84,10 @@ __meta__ = {
 }
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="Control/ColorRect"]
-margin_left = 322.287
-margin_top = 254.146
-margin_right = 726.287
-margin_bottom = 345.146
+margin_left = 466.374
+margin_top = 336.784
+margin_right = 870.374
+margin_bottom = 427.784
 custom_fonts/normal_font = SubResource( 2 )
 text = "PirateNahid"
 __meta__ = {
@@ -95,10 +95,10 @@ __meta__ = {
 }
 
 [node name="RichTextLabel3" type="RichTextLabel" parent="Control/ColorRect"]
-margin_left = 784.584
-margin_top = 535.376
-margin_right = 932.584
-margin_bottom = 573.376
+margin_left = 1051.57
+margin_top = 649.798
+margin_right = 1199.57
+margin_bottom = 687.798
 custom_fonts/normal_font = SubResource( 3 )
 text = "made with "
 __meta__ = {
@@ -106,14 +106,14 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="Control/ColorRect"]
-position = Vector2( 969.902, 552.416 )
+position = Vector2( 1236.89, 666.838 )
 texture = ExtResource( 4 )
 
 [node name="ColorRect2" type="ColorRect" parent="Control"]
-margin_left = -80.866
-margin_top = -49.9467
-margin_right = 1101.13
-margin_bottom = 637.053
+margin_left = -81.0
+margin_top = -50.0
+margin_right = 1336.0
+margin_bottom = 766.0
 color = Color( 0, 0, 0, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
