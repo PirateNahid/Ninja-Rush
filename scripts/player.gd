@@ -10,10 +10,13 @@ var velocity = Vector2(0,0)
 func _ready():
 	pass # Replace with function body.
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	$animation.play("run")
-	velocity.x = 50
-	move_and_slide(velocity)
+	velocity.x = 300
+	velocity.y =100
+
+	var _k = move_and_slide(velocity)
+	
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
